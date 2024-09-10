@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="flex">
           <div className="w-1/2 px-3">
             <img
-              src="/public/assets/logo-(1) 1.png"
+              src="/assets/logo-(1) 1.png"
               alt=""
               className="h-10 w-52"
             />
