@@ -7,7 +7,7 @@ const NextArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="absolute right-0 top-1/2 transform -translate-y-1/2 text-4xl text-[#F35863] cursor-pointer z-10 "
+      className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-[#F35863] rounded-full p-2 shadow-lg cursor-pointer z-10"
       onClick={onClick}
     >
       &gt;
@@ -19,7 +19,7 @@ const PrevArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="absolute left-0 top-1/2 transform -translate-y-1/2 text-4xl text-[#F35863] cursor-pointer z-10"
+      className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-[#F35863] rounded-full p-2 shadow-lg cursor-pointer z-10"
       onClick={onClick}
     >
       &lt;

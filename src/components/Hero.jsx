@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="mt-5 w-full">
         <form className="flex flex-col items-center justify-center space-x-4 px-72 mb-20">
           <div className="flex border-l w-full ml-4 border-gray-200 rounded">
-            <button className="text-red-500 border bg-white px-4 py-2 rounded-l-md">
+            <button className="text-red-500 border bg-white px-4 py-2 rounded-l-md font-semibold">
               Buy
             </button>
             <button className="text-red-500 border bg-white px-4 py-2 rounded-r-md">
@@ -72,28 +72,3 @@ const Hero = () => {
 };
 export default Hero;
 
-// const Hero = () => {
-//   return (
-//     <section className="bg-gray-100 p-10 text-center">
-//       <h1 className="text-4xl font-bold">A Perfect Place to <span className="text-pink-500">Rent</span> Property</h1>
-//       <p className="text-xl mt-2">Connect With Best Resale Professionals</p>
-//       <div className="mt-5">
-//         <form className="flex justify-center space-x-3">
-//           <select className="p-2 rounded-lg">
-//             <option>All Residential</option>
-//           </select>
-//           <input type="text" placeholder="Enter Cities" className="p-2 rounded-lg border" />
-//           <select className="p-2 rounded-lg">
-//             <option>Bedroom</option>
-//           </select>
-//           <select className="p-2 rounded-lg">
-//             <option>Budget</option>
-//           </select>
-//           <button className="bg-pink-500 text-white px-5 py-2 rounded-lg">Search Properties</button>
-//         </form>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Hero;

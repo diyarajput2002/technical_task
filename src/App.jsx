@@ -5,6 +5,8 @@ import Footer from './components/Footer'
 import Properties from './components/Properties'
 import Featured from './components/Featured'
 import Rent from './components/Rent'
+import ResaleAdvisors from './components/ResaleAdvisors'
+import TestimonialsSection from './components/TestimonialSection'
 function App() {
 
   return (
@@ -14,6 +16,8 @@ function App() {
      <Properties/>
      <Rent/>
      <Featured/>
+     <ResaleAdvisors/>
+     <TestimonialsSection/>
      <Footer/>
     </>
   )

@@ -6,8 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 const NextArrow = (props) => {
   const { onClick } = props;
   return (
-    <div 
-      className="absolute right-0 top-1/2 transform -translate-y-1/2 text-4xl text-[#F35863] cursor-pointer z-10" 
+    <div    
+    className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-[#F35863] rounded-full p-2 shadow-lg cursor-pointer z-10"
       onClick={onClick}
     >
       &gt;
@@ -18,8 +18,8 @@ const PrevArrow = (props) => {
   const { onClick } = props;
   return (
     <div 
-      className="absolute left-0 top-1/2 transform -translate-y-1/2 text-4xl text-[#F35863] cursor-pointer z-10" 
-      onClick={onClick}
+    className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-[#F35863] rounded-full p-2 shadow-lg cursor-pointer z-10"
+    onClick={onClick}
     >
       &lt;
     </div>
@@ -114,7 +114,7 @@ const Header2 = () => {
   return (
     <div className="flex items-center justify-between p-4 bg-gradient-to-r from-[#FFCACE] to-white ">
       <div className="flex items-center space-x-2 p-2 bg-red-500 rounded-lg">
-        <button className="flex items-center space-x-1 bg-red-400 text-white px-4 py-2 rounded-lg">
+        <button className="flex items-center space-x-1  bg-[#F35863] text-white px-4 py-2 rounded-lg">
           <span>Buy</span>
         </button>
         <button className="flex items-center space-x-1 bg-transparent text-white px-4 py-2 rounded-lg">
